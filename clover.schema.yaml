@@ -98,8 +98,13 @@ speller:
     - derive/eng$/wng/ # w -> e
     - derive/ang$/sng/ # s -> a
     - derive/ung$/yng/ # y -> u
+    - derive/[(y)]uan$/$1ian/ #yian -> yuan
+    - derive/([aeiou])ng$/$1nh/ # enh -> eng
+    # b v 混淆
+    - derive/^b([aeiou])/v$1/ 
+    # l k 混淆
+    - derive/^li/ki/ 
 
-    
     - derive/un$/uen/    # uen = un
     - derive/ui$/uei/    # uei = ui
     - derive/iu$/iou/    # iou = ui
