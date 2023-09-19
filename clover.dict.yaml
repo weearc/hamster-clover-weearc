@@ -7,6 +7,7 @@ import_tables:
   - clover.base
   - clover.phrase
   - android.base
+  # - android.userextend
   - THUOCL_animal
   - THUOCL_caijing
   - THUOCL_car

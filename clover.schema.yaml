@@ -89,13 +89,17 @@ speller:
     
     # 智能纠错(ios 26键)
     - derive/ao$/oa/       # oa = ao
-    ## [aeiou]n/ng 相关
+
+    # [aeiou]n/ng 相关
     - derive/([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang
     - derive/([aeiou])ng$/$1bg/   # ebg -> eng
     - derive/([aeiou])n$/$1b/   # eb -> en (经常按n到b)
+    - derive/([aeiou])ng$/$1nf/ # enf -> eng
     - derive/eng$/wng/ # w -> e
     - derive/ang$/sng/ # s -> a
     - derive/ung$/yng/ # y -> u
+
+    
     - derive/un$/uen/    # uen = un
     - derive/ui$/uei/    # uei = ui
     - derive/iu$/iou/    # iou = ui

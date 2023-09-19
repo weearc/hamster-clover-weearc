@@ -1,0 +1,51 @@
+---
+name: android.extend
+version: "1.0.0"
+sort: by_weight
+...
+Android	android 1
+Apple	apple 1
+Apple ID	appleid 1
+ArchLinux archlinux 1
+Cloudflare cloudflare 1
+CSS	css 1
+Dropbox	dropbox 1
+GBK	gbk 1
+GitHub	github 1
+Google	google 1
+HTML	html 1
+iCloud	icloud 1
+iMac	imac 1
+iOS	ios 1
+iPad	ipad 1
+iPhone	iphone 1
+IPv4	ipv 1
+IPv6	ipv 1
+iTunes	itunes 1
+JavaScript javascript 1
+Java java 1
+jQuery	jquery 1
+Python python 1
+Linux	linux 1
+Mac	mac 1
+Magisk	magisk 1
+Minecraft	minecraft 1
+MySQL	mysql 1
+OneDrive	onedrive 1
+OS X	osx 1
+Pixel	pixel 1
+QQ 邮箱	qqyouxiang 1
+Quantumult	quanx 1
+Ruby	ruby 1
+Rust	rust 1
+SQL	sql 1
+Swift	swift 1
+TypeScript ts 1
+T 恤	txu 1
+UTF-8	utfb 1
+U盘	upan
+WeChat	wechat 1
+Wi-Fi	wifi 1
+Windows	win 1
+Windows	windows 1
+X-Ray	xray 1
