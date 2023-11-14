@@ -128,6 +128,9 @@ translator:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+  enable_user_dict: true         # 是否开启用户词典（记录词频，用户词）
+  enable_encoder: true           # 自动造词
+  encode_commit_history: true     # 是否对已上屏的词自动造词
 
 punctuator:
   import_preset: symbols
