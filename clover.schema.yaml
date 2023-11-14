@@ -30,7 +30,7 @@ switches:
     states: [ 半, 全 ]
   - name: ascii_mode
     reset: 0
-    states: [ 中, 英 ]
+    states: [ 中, EN ]
 
 engine:
   processors:

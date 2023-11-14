@@ -37,7 +37,8 @@ keyboard:
   # chinese: 中文26键
   # chineseNineGrid: 中文九宫格
   # custom(name): 自定义键盘，其中 name 对应自定义键盘配置(customizeKeyboards)中的 name。如: custom(中文26键)
-  useKeyboardType: chinese
+  # useKeyboardType: chinese
+  useKeyboardType: custom(ZH)
   # 关闭划动文本显示
   disableSwipeLabel: false
   # 上下显示划动文本不规则布局
@@ -133,48 +134,31 @@ keyboard:
   # 配色方案
   # 来源: https://github.com/rime/squirrel/blob/master/data/squirrel.yaml
   colorSchemas:
-    - schemaName: solarized_dark
-      name: 曬經・月／Solarized Dark
-      author: 雪齋 <lyc20041@gmail.com>/Morse <morse.hsiao@gmail.com>
-      back_color: 0xF0352A0A # 键盘背景色
-      button_back_color: 0xF0352A0A # 按键背景色
-      button_pressed_back_color: 0x403516 # 按下时按键背景色
-      button_front_color: 0x7389FF # 按键上文字颜色
-      button_pressed_front_color: 0x7389FF # 按下时按键上文字颜色
-      button_swipe_front_color: 0x7389FF # 按键上划动文字的颜色
-      corner_radius: 5 # 按键圆角半径
-      border_color: 0x2A1F00 # 按键边框颜色
-      text_color: 0x756E5D # 组字区域文字颜色
-      hilited_candidate_back_color: 0x403516 # 候选栏首选文字区域背景色
-      hilited_candidate_text_color: 0x989F52 # 候选栏首选文字颜色
-      hilited_comment_text_color: 0x289989 # 候选栏首选文字 Comment 信息颜色
-      candidate_text_color: 0x7389FF # 候选栏次选文字颜色
-      comment_text_color: 0xC38AFF # 候选栏次选文字 Comment 信息颜色
-    - schemaName: solarized_light
-      name: 曬經・日／Solarized Light
-      author: 雪齋 <lyc20041@gmail.com>/Morse <morse.hsiao@gmail.com>
-      back_color: 0xF0E5F6FB # 键盘背景色
-      button_back_color: 0xF0E5F6FB # 按键背景色
-      button_pressed_back_color: 0xD7E8ED # 按下时按键背景色
-      button_front_color: 0x595E00 # 按键上文字颜色
-      button_pressed_front_color: 0x595E00 # 按下时按键上文字颜色
-      button_swipe_front_color: 0x595E00 # 按键上划动文字的颜色
-      corner_radius: 5 # 按键圆角半径
-      border_color: 0xEDFFFF # 按键边框颜色
-      text_color: 0xA1A095 # 组字区域文字颜色
-      hilited_candidate_back_color: 0xD7E8ED # 候选栏首选文字区域背景色
-      hilited_candidate_text_color: 0x3942CB # 候选栏首选文字颜色
-      hilited_comment_text_color: 0x8144C2 # 候选栏首选文字 Comment 信息颜色
-      candidate_text_color: 0x595E00 # 候选栏次选文字颜色
-      comment_text_color: 0x005947 # 候选栏次选文字 Comment 信息颜色
+    - schemaName: darksys
+      name: 暗色方案
+      author: weearc
+      back_color: "0x212121"
+      button_back_color: "0x212121"
+      button_pressed_back_color: "0x545454"
+      button_front_color: "0xBDBDBD"
+      button_pressed_front_color: "0xBDBDBD"
+      button_swipe_front_color: "0xBDBDBD"
+      corner_radius: 0
+      border_color: "0x212121"
+      text_color: "0xBDBDBD"
+      hilited_candidate_back_color: "0x545454"
+      hilited_candidate_text_color: "0xBDBDBD"
+      hilited_comment_text_color: "0xBDBDBD"
+      candidate_text_color: "0xBDBDBD"
+      comment_text_color: "0xBDBDBD"
 
 # RIME 引擎相关配置
 rime:
   maximumNumberOfCandidateWords: 100
-  keyValueOfSwitchSimplifiedAndTraditional: simplified
+  keyValueOfSwitchSimplifiedAndTraditional: zh_simp_s2t
   # RIME 重新部署时，是否覆盖词库文件
   # 如果使用自造词，需要改为 false, 否则部署时会覆盖键盘自造词文件
-  overrideDictFiles: true
+  overrideDictFiles: false
   # 覆盖词库文件的正则表达式
   # 使用场景：
   # 在开启 overrideDictFiles 后，每次重新部署会按照正则表达式符合的条件翻盖文件
@@ -464,148 +448,9 @@ swipe:
               display: true
 # 自定义键盘布局
 # 布局文档说明文档：https://github.com/imfuxiao/Hamster/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80
+
 keyboards:
-    rows:
-      - keys:
-          - action: character(q)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(w)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(e)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(r)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(t)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(y)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(u)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(i)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(o)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(p)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-      - keys:
-          - action: character(a)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(s)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(d)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(f)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(g)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(h)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(j)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(k)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(l)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(c)
-            width: percentage(0.1)
-          - action: character(c)
-            width: percentage(0.1)
-      - keys:
-          - action: shift
-            width:
-              portrait: percentage(0.145)
-              landscape: percentage(0.091)
-          - action: character(z)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(x)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(c)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(v)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(b)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(n)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: character(m)
-            width:
-              portrait: percentage(0.1)
-              landscape: percentage(0.091)
-          - action: backspace
-            width:
-              portrait: percentage(0.145)
-              landscape: percentage(0.1)
-          - action: character(c)
-            width: percentage(0.1)
-          - action: character(c)
-            width: percentage(0.1)
-      - keys:
-          - action: keyboardType(numericNineGrid)
-            width: percentage(0.13)
-          - action: nextKeyboard
-            width:
-              portrait: percentage(0.08)
-              landscape: percentage(0.091)
-          - action: character(,)
-            width: percentage(0.091)
-          - action: space
-            width: percentage(0.47)
-          - action: character(.)
-            width: percentage(0.091)
-          - action: character(c)
-            width: percentage(0.1)
-    buttonInsets: left(3),bottom(2),top(8),right(3)
-  - name: iOS-zh-26
+  - name: ZH
     rows:
       - keys:
           - action: character(q)
@@ -679,8 +524,8 @@ keyboards:
             width:
               portrait: percentage(0.15)
               landscape: percentage(0.2)
-          # - action: nextKeyboard
-          - action: keyboardType(alphabetic)
+          - action: keyboardType(custom(EN))
+            label: ""
             width:
               portrait: percentage(0.08)
               landscape: percentage(0.1)
@@ -689,9 +534,8 @@ keyboards:
               portrait: percentage(0.09)
               landscape: percentage(0.1)
           - action: space
-            width:
-              portrait: available
-              landscape: percentage(0.1)
+            label: "Clover"
+            width: available
           - action: character(。)
             width:
               portrait: percentage(0.09)
@@ -700,49 +544,69 @@ keyboards:
             width:
               portrait: percentage(0.14)
               landscape: percentage(0.1)
-    buttonInsets: left(3),bottom(4),top(8),right(3)
+    buttonInsets: left(0),bottom(0),top(0),right(0)
+  - name: EN
     rows:
       - keys:
           - action: character(q)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(w)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(e)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(r)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(t)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(y)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(u)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(i)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(o)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(p)
+            processByRIME: false
             width: percentage(0.1)
       - keys:
           - action: none
             width: available
           - action: character(a)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(s)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(d)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(f)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(g)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(h)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(j)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(k)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(l)
+            processByRIME: false
             width: percentage(0.1)
           - action: none
             width: available
@@ -752,18 +616,25 @@ keyboards:
           - action: none
             width: available
           - action: character(z)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(x)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(c)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(v)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(b)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(n)
+            processByRIME: false
             width: percentage(0.1)
           - action: character(m)
+            processByRIME: false
             width: percentage(0.1)
           - action: none
             width: available
@@ -771,13 +642,27 @@ keyboards:
             width: percentage(0.13)
       - keys:
           - action: keyboardType(numericNineGrid)
-            width: percentage(0.2)
+            width:
+              portrait: percentage(0.15)
+              landscape: percentage(0.2)
+          - action: keyboardType(custom(ZH))
+            label: "EN"
+            width:
+              portrait: percentage(0.08)
+              landscape: percentage(0.1)
           - action: character(,)
-            width: percentage(0.1)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
           - action: space
-            width: percentage(0.4)
+            label: "Clover"
+            width: available
           - action: character(.)
-            width: percentage(0.1)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
           - action: enter
-            width: percentage(0.2)
-    buttonInsets: left(3),bottom(4),top(8),right(3)
+            width:
+              portrait: percentage(0.14)
+              landscape: percentage(0.1)
+    buttonInsets: left(0),bottom(0),top(0),right(0)

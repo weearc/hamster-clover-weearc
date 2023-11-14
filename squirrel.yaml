@@ -29,7 +29,7 @@ style:
   text_orientation: horizontal  # horizontal | vertical
   inline_preedit: true
 
-  corner_radius: 10
+  corner_radius: 0
   hilited_corner_radius: 0
   border_height: 0
   border_width: 0

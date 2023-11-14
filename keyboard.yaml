@@ -1,0 +1,217 @@
+keyboards:
+  - name: ZH
+    rows:
+      - keys:
+          - action: character(q)
+            width: percentage(0.1)
+          - action: character(w)
+            width: percentage(0.1)
+          - action: character(e)
+            width: percentage(0.1)
+          - action: character(r)
+            width: percentage(0.1)
+          - action: character(t)
+            width: percentage(0.1)
+          - action: character(y)
+            width: percentage(0.1)
+          - action: character(u)
+            width: percentage(0.1)
+          - action: character(i)
+            width: percentage(0.1)
+          - action: character(o)
+            width: percentage(0.1)
+          - action: character(p)
+            width: percentage(0.1)
+      - keys:
+          - action: none
+            width: available
+          - action: character(a)
+            width: percentage(0.1)
+          - action: character(s)
+            width: percentage(0.1)
+          - action: character(d)
+            width: percentage(0.1)
+          - action: character(f)
+            width: percentage(0.1)
+          - action: character(g)
+            width: percentage(0.1)
+          - action: character(h)
+            width: percentage(0.1)
+          - action: character(j)
+            width: percentage(0.1)
+          - action: character(k)
+            width: percentage(0.1)
+          - action: character(l)
+            width: percentage(0.1)
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+          - action: none
+            width: available
+          - action: character(z)
+            width: percentage(0.1)
+          - action: character(x)
+            width: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
+          - action: character(v)
+            width: percentage(0.1)
+          - action: character(b)
+            width: percentage(0.1)
+          - action: character(n)
+            width: percentage(0.1)
+          - action: character(m)
+            width: percentage(0.1)
+          - action: none
+            width: available
+          - action: backspace
+            width: percentage(0.13)
+      - keys:
+          - action: keyboardType(numericNineGrid)
+            width:
+              portrait: percentage(0.15)
+              landscape: percentage(0.2)
+          - action: keyboardType(custom(EN))
+            label: ""
+            width:
+              portrait: percentage(0.08)
+              landscape: percentage(0.1)
+          - action: character(，)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
+          - action: space
+            label: "Clover"
+            width: available
+          - action: character(。)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
+          - action: enter
+            width:
+              portrait: percentage(0.14)
+              landscape: percentage(0.1)
+    buttonInsets: left(0),bottom(0),top(0),right(0)
+  - name: EN
+    rows:
+      - keys:
+          - action: character(q)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(w)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(e)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(r)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(t)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(y)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(u)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(i)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(o)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(p)
+            processByRIME: false
+            width: percentage(0.1)
+      - keys:
+          - action: none
+            width: available
+          - action: character(a)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(s)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(d)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(f)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(g)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(h)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(j)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(k)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(l)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+          - action: none
+            width: available
+          - action: character(z)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(x)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(c)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(v)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(b)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(n)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: character(m)
+            processByRIME: false
+            width: percentage(0.1)
+          - action: none
+            width: available
+          - action: backspace
+            width: percentage(0.13)
+      - keys:
+          - action: keyboardType(numericNineGrid)
+            width:
+              portrait: percentage(0.15)
+              landscape: percentage(0.2)
+          - action: keyboardType(custom(ZH))
+            label: "EN"
+            width:
+              portrait: percentage(0.08)
+              landscape: percentage(0.1)
+          - action: character(,)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
+          - action: space
+            label: "Clover"
+            width: available
+          - action: character(.)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
+          - action: enter
+            width:
+              portrait: percentage(0.14)
+              landscape: percentage(0.1)
+    buttonInsets: left(0),bottom(0),top(0),right(0)
