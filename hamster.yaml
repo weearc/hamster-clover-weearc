@@ -465,367 +465,319 @@ swipe:
 # 自定义键盘布局
 # 布局文档说明文档：https://github.com/imfuxiao/Hamster/wiki/%E8%87%AA%E5%AE%9A%E4%B9%89%E9%94%AE%E7%9B%98%E5%B8%83%E5%B1%80
 keyboards:
-  - name: "仓颉"
     rows:
       - keys:
           - action: character(q)
-            label: "手"
-            swipe:
-              - direction: up
-                action: character(1)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(w)
-            label: "田"
-            swipe:
-              - direction: up
-                action: character(2)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(e)
-            label: "水"
-            swipe:
-              - direction: up
-                action: character(3)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(r)
-            label: "口"
-            swipe:
-              - direction: up
-                action: character(4)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(t)
-            label: "廿"
-            swipe:
-              - direction: up
-                action: character(5)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(y)
-            label: "卜"
-            swipe:
-              - direction: up
-                action: character(6)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(u)
-            label: "山"
-            swipe:
-              - direction: up
-                action: character(7)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(i)
-            label: "戈"
-            swipe:
-              - direction: up
-                action: character(8)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(o)
-            label: "人"
-            swipe:
-              - direction: up
-                action: character(9)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(p)
-            label: "心"
-            swipe:
-              - direction: up
-                action: character(0)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
       - keys:
-          - action: characterMargin(a)
-            width: available
           - action: character(a)
-            label: "日"
-            swipe:
-              - direction: up
-                action: character(!)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(s)
-            label: "尸"
-            swipe:
-              - direction: up
-                action: character(@)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(d)
-            label: "木"
-            swipe:
-              - direction: up
-                action: character(#)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(f)
-            label: "火"
-            swipe:
-              - direction: up
-                action: character($)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(g)
-            label: "土"
-            swipe:
-              - direction: up
-                action: character(%)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(h)
-            label: "竹"
-            swipe:
-              - direction: up
-                action: character(&)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(j)
-            label: "十"
-            swipe:
-              - direction: up
-                action: character(*)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(k)
-            label: "大"
-            swipe:
-              - direction: up
-                action: character(()
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(l)
-            label: "中"
-            swipe:
-              - direction: up
-                action: character())
-                display: true
-          - action: characterMargin(l)
-            width: available
-      - keys:
-          - action: keyboardType(classifySymbolic)
-            width: percentage(0.13)
-          - action: characterMargin(z)
-            width: available
-          - action: character(z)
-            label: "重"
-            swipe:
-              - direction: up
-                action: character(~)
-                display: true
-          - action: character(x)
-            label: "難"
-            swipe:
-              - direction: up
-                action: character(:)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(c)
-            label: "金"
-            swipe:
-              - direction: up
-                action: character(')
-                display: true
+            width: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
+      - keys:
+          - action: shift
+            width:
+              portrait: percentage(0.145)
+              landscape: percentage(0.091)
+          - action: character(z)
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
+          - action: character(x)
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
+          - action: character(c)
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(v)
-            label: "女"
-            swipe:
-              - direction: up
-                action: character(_)
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(b)
-            label: "月"
-            swipe:
-              - direction: up
-                action: character(,)
-                label: "，"
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(n)
-            label: "弓"
-            swipe:
-              - direction: up
-                action: character(.)
-                label: "。"
-                display: true
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: character(m)
-            label: "一"
-            swipe:
-              - direction: up
-                action: character(?)
-                label: "？"
-                display: true
-          - action: characterMargin(m)
-            width: available
+            width:
+              portrait: percentage(0.1)
+              landscape: percentage(0.091)
           - action: backspace
-            width: percentage(0.13)
-            swipe:
-              - direction: up
-                action: shortCommand(#重输)
+            width:
+              portrait: percentage(0.145)
+              landscape: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
       - keys:
           - action: keyboardType(numericNineGrid)
-            width: percentage(0.19)
-          - action: space
-            width: available
-            label:
-              loadingText: "仓输入法"
-              text: "空格"
-          - action: character(,)
-            label: "，"
-            swipe:
-              - direction: up
-                action: character(.)
-                label: "。"
-                display: true
-          - action: keyboardType(alphabetic)
             width: percentage(0.13)
-          - action: enter
-            width: percentage(0.19)
-  - name: "大千注音"
-    buttonInsets: left(2),right(2),top(4),bottom(4)
-    rowHeight: 43.2
-    rows:
-      - keys:
-          - action: character(1)
-            label: "ㄅ"
-            swipe:
-              - direction: up
-                action: character(1)
-                display: true
-          - action: character(2)
-            label: "ㄉ"
-            swipe:
-              - direction: up
-                action: character(2)
-                display: true
-          - action: character(3)
-            label: "ˇ"
-            swipe:
-              - direction: up
-                action: character(3)
-                display: true
-          - action: character(4)
-            label: "ˋ"
-            swipe:
-              - direction: up
-                action: character(4)
-                display: true
-          - action: character(5)
-            label: "ㄓ"
-            swipe:
-              - direction: up
-                action: character(5)
-                display: true
-          - action: character(6)
-            label: "ˊ"
-            swipe:
-              - direction: up
-                action: character(6)
-                display: true
-          - action: character(7)
-            label: "˙"
-            swipe:
-              - direction: up
-                action: character(7)
-                display: true
-          - action: character(8)
-            label: "ㄚ"
-            swipe:
-              - direction: up
-                action: character(8)
-                display: true
-          - action: character(9)
-            label: "ㄞ"
-            swipe:
-              - direction: up
-                action: character(9)
-                display: true
-          - action: character(0)
-            label: "ㄢ"
-            swipe:
-              - direction: up
-                action: character(0)
-                display: true
-          - action: character(-)
-            label: "ㄦ"
-            swipe:
-              - direction: up
-                action: character(-)
-                display: true
-      - keys:
-          - action: characterMargin(q)
-            width: available
-          - action: character(q)
-            label: "ㄆ"
-          - action: character(w)
-            label: "ㄊ"
-          - action: character(e)
-            label: "ㄍ"
-          - action: character(r)
-            label: "ㄐ"
-          - action: character(t)
-            label: "ㄔ"
-          - action: character(y)
-            label: "ㄗ"
-          - action: character(u)
-            label: "ㄧ"
-          - action: character(i)
-            label: "ㄛ"
-          - action: character(o)
-            label: "ㄟ"
-          - action: character(p)
-            label: "ㄣ"
-          - action: characterMargin(p)
-            width: available
-      - keys:
-          - action: characterMargin(a)
-            width: available
-          - action: character(a)
-            label: "ㄇ"
-          - action: character(s)
-            label: "ㄋ"
-          - action: character(d)
-            label: "ㄎ"
-          - action: character(f)
-            label: "ㄑ"
-          - action: character(g)
-            label: "ㄕ"
-          - action: character(h)
-            label: "ㄘ"
-          - action: character(j)
-            label: "ㄨ"
-          - action: character(k)
-            label: "ㄜ"
-          - action: character(l)
-            label: "ㄠ"
-          - action: character(;)
-            label: "ㄤ"
-          - action: characterMargin(;)
-            width: available
-      - keys:
-          - action: character(z)
-            label: "ㄈ"
-          - action: character(x)
-            label: "ㄌ"
-          - action: character(c)
-            label: "ㄏ"
-          - action: character(v)
-            label: "ㄒ"
-          - action: character(b)
-            label: "ㄖ"
-          - action: character(n)
-            label: "ㄙ"
-          - action: character(m)
-            label: "ㄩ"
+          - action: nextKeyboard
+            width:
+              portrait: percentage(0.08)
+              landscape: percentage(0.091)
           - action: character(,)
-            label: "ㄝ"
+            width: percentage(0.091)
+          - action: space
+            width: percentage(0.47)
           - action: character(.)
-            label: "ㄡ"
-          - action: character(/)
-            label: "ㄥ"
+            width: percentage(0.091)
+          - action: character(c)
+            width: percentage(0.1)
+    buttonInsets: left(3),bottom(2),top(8),right(3)
+  - name: iOS-zh-26
+    rows:
+      - keys:
+          - action: character(q)
+            width: percentage(0.1)
+          - action: character(w)
+            width: percentage(0.1)
+          - action: character(e)
+            width: percentage(0.1)
+          - action: character(r)
+            width: percentage(0.1)
+          - action: character(t)
+            width: percentage(0.1)
+          - action: character(y)
+            width: percentage(0.1)
+          - action: character(u)
+            width: percentage(0.1)
+          - action: character(i)
+            width: percentage(0.1)
+          - action: character(o)
+            width: percentage(0.1)
+          - action: character(p)
+            width: percentage(0.1)
+      - keys:
+          - action: none
+            width: available
+          - action: character(a)
+            width: percentage(0.1)
+          - action: character(s)
+            width: percentage(0.1)
+          - action: character(d)
+            width: percentage(0.1)
+          - action: character(f)
+            width: percentage(0.1)
+          - action: character(g)
+            width: percentage(0.1)
+          - action: character(h)
+            width: percentage(0.1)
+          - action: character(j)
+            width: percentage(0.1)
+          - action: character(k)
+            width: percentage(0.1)
+          - action: character(l)
+            width: percentage(0.1)
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+          - action: none
+            width: available
+          - action: character(z)
+            width: percentage(0.1)
+          - action: character(x)
+            width: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
+          - action: character(v)
+            width: percentage(0.1)
+          - action: character(b)
+            width: percentage(0.1)
+          - action: character(n)
+            width: percentage(0.1)
+          - action: character(m)
+            width: percentage(0.1)
+          - action: none
+            width: available
           - action: backspace
-            swipe:
-              - direction: up
-                action: shortCommand(#重输)
+            width: percentage(0.13)
       - keys:
           - action: keyboardType(numericNineGrid)
-            width: percentage(0.13)
-          - action: keyboardType(classifySymbolic)
-            width: percentage(0.13)
-          - action: space
-            width: available
-            label:
-              loadingText: "仓输入法"
-              text: "空格"
-          - action: character(，)
-            label: "，"
-            swipe:
-              - direction: up
-                action: character(。)
-                display: true
+            width:
+              portrait: percentage(0.15)
+              landscape: percentage(0.2)
+          # - action: nextKeyboard
           - action: keyboardType(alphabetic)
-            width: percentage(0.13)
+            width:
+              portrait: percentage(0.08)
+              landscape: percentage(0.1)
+          - action: character(，)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
+          - action: space
+            width:
+              portrait: available
+              landscape: percentage(0.1)
+          - action: character(。)
+            width:
+              portrait: percentage(0.09)
+              landscape: percentage(0.1)
           - action: enter
-            width: percentage(0.19)
+            width:
+              portrait: percentage(0.14)
+              landscape: percentage(0.1)
+    buttonInsets: left(3),bottom(4),top(8),right(3)
+    rows:
+      - keys:
+          - action: character(q)
+            width: percentage(0.1)
+          - action: character(w)
+            width: percentage(0.1)
+          - action: character(e)
+            width: percentage(0.1)
+          - action: character(r)
+            width: percentage(0.1)
+          - action: character(t)
+            width: percentage(0.1)
+          - action: character(y)
+            width: percentage(0.1)
+          - action: character(u)
+            width: percentage(0.1)
+          - action: character(i)
+            width: percentage(0.1)
+          - action: character(o)
+            width: percentage(0.1)
+          - action: character(p)
+            width: percentage(0.1)
+      - keys:
+          - action: none
+            width: available
+          - action: character(a)
+            width: percentage(0.1)
+          - action: character(s)
+            width: percentage(0.1)
+          - action: character(d)
+            width: percentage(0.1)
+          - action: character(f)
+            width: percentage(0.1)
+          - action: character(g)
+            width: percentage(0.1)
+          - action: character(h)
+            width: percentage(0.1)
+          - action: character(j)
+            width: percentage(0.1)
+          - action: character(k)
+            width: percentage(0.1)
+          - action: character(l)
+            width: percentage(0.1)
+          - action: none
+            width: available
+      - keys:
+          - action: shift
+            width: percentage(0.13)
+          - action: none
+            width: available
+          - action: character(z)
+            width: percentage(0.1)
+          - action: character(x)
+            width: percentage(0.1)
+          - action: character(c)
+            width: percentage(0.1)
+          - action: character(v)
+            width: percentage(0.1)
+          - action: character(b)
+            width: percentage(0.1)
+          - action: character(n)
+            width: percentage(0.1)
+          - action: character(m)
+            width: percentage(0.1)
+          - action: none
+            width: available
+          - action: backspace
+            width: percentage(0.13)
+      - keys:
+          - action: keyboardType(numericNineGrid)
+            width: percentage(0.2)
+          - action: character(,)
+            width: percentage(0.1)
+          - action: space
+            width: percentage(0.4)
+          - action: character(.)
+            width: percentage(0.1)
+          - action: enter
+            width: percentage(0.2)
+    buttonInsets: left(3),bottom(4),top(8),right(3)
