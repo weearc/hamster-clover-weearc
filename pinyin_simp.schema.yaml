@@ -10,7 +10,7 @@ schema:
   description: |
     源自 Android 拼音
   dependencies:
-#    - stroke
+    - stroke
 
 switches:
   - name: ascii_mode
@@ -40,7 +40,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
-#    - reverse_lookup_translator
+    - reverse_lookup_translator
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -60,7 +60,7 @@ speller:
     - derive/([iu])a(o|ng?)$/a$1$2/
 
 translator:
-  dictionary: clover.base
+  dictionary: pinyin_simp
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
@@ -76,7 +76,7 @@ reverse_lookup:
     - xlit/hspnz/一丨丿丶乙/
 
 punctuator:
-  import_preset: default
+  import_preset: symbols
 
 key_binder:
   import_preset: default
