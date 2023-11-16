@@ -63,3 +63,12 @@ xkjd6_filter = require("xkjd6_filter")
 topup_processor = require("for_topup")
 smart_2 = require("smart_2")
 number_translator = require("xnumber")
+
+-- melt_eng
+local M= require("melt")
+get_date = M.getdate
+jpcharset_filter = M.jpcharsetfilter
+long_word_filter = M.longwordfilter
+autocap_filter =M.autocapfilter
+oo_processor = M.ooprocessor
+oo_filter =M.oofilter

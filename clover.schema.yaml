@@ -10,7 +10,11 @@ schema:
   description: |
     修改自🍀️四叶草
   dependencies:
+    - melt_eng
     - emoji
+  keyboard:
+    label: upcase
+    layout: qwerty
 
 switches:
   - name: zh_simp_s2t
@@ -34,6 +38,7 @@ switches:
 
 engine:
   processors:
+    - "lua_processor@oo_processor"
     - ascii_composer
     - key_binder
     - speller
@@ -48,11 +53,18 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
+    - "table_translator@melt_eng"
     - punct_translator
     - script_translator
+    - "lua_translator@get_date"
   filters:
     - simplifier@emoji_suggestion
     - simplifier@symbol_support
+    - "simplifier@candidate_s2t"
+    - "simplifier@comment_pinyin"
+    - "lua_filter@autocap_filter"
+    - "lua_filter@long_word_filter"
+    - "lua_filter@oo_filter"
     - simplifier
     - uniquifier
 
@@ -131,6 +143,13 @@ translator:
   enable_user_dict: true         # 是否开启用户词典（记录词频，用户词）
   enable_encoder: true           # 自动造词
   encode_commit_history: true     # 是否对已上屏的词自动造词
+
+melt_eng:
+  dictionary: melt_eng
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: "-1"
+  spelling_hints: 9
 
 punctuator:
   import_preset: symbols

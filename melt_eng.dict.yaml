@@ -1,0 +1,12 @@
+
+name: melt_eng
+version: "2021.11.29"
+# sort: by_weight
+use_preset_vocabulary: true
+
+
+import_tables:
+  - melt_eng.base
+  - melt_eng.multi
+  - melt_eng.heavy
+  - melt_eng.custom

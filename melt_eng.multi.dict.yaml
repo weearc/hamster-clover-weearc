@@ -1,0 +1,46 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+---
+name: melt_eng.multi
+version: "2021.07.11"
+sort: by_weight
+use_preset_vocabulary: false
+...
+の	de
+°	degrees
+℉	degreesFahrenheit
+℃	degreeCelsius
+℃	centidegree
+ü	v
+Σ	sigma
+Φ	phi
+φ	phi
+Ω	omega
+ω	omega
+α	alpha
+β	beta
+γ	gamma
+Δ	delta
+ε	epsilon
+ζ	zeta
+η	eta
+θ	theta
+ι	iota
+κ	kappa
+λ	lambda
+μ	mu
+μ	micro
+ν	nu
+ξ	xi
+ο	omicron
+π	pi
+ρ	rho
+σ	sigma
+τ	tau
+υ	upsilon
+χ	chi
+ψ	psi
+I'	i
+AKB48	AKB48
+SNH48	SNH48
